@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".birds">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound of Birds"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="286dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="181dp"
+                        android:layout_height="286dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/PEACOCK"
+                            android:layout_width="match_parent"
+                            android:layout_height="253dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/peacock"
+                            android:contentDescription="peacock sound"/>
+
+                        <TextView
+                            android:layout_width="181dp"
+                            android:layout_height="33dp"
+                            android:text="Peacock"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <LinearLayout
+                        android:layout_width="181dp"
+                        android:layout_height="286dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/SPARROW"
+                            android:layout_width="170dp"
+                            android:layout_height="253dp"
+                            android:background="@drawable/bg"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/sparrow"
+                            android:contentDescription="sparrow sound"/>
+
+                        <TextView
+                            android:layout_width="181dp"
+                            android:layout_height="33dp"
+                            android:text="Sparrow"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/dseekbar"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <SeekBar
+                        android:id="@+id/sseekbar1"
+                        android:layout_width="150dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="286dp"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="181dp"
+                        android:layout_height="286dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/CUCKOO"
+                            android:layout_width="match_parent"
+                            android:layout_height="253dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/cuckooimg"
+                            android:contentDescription="cuckoo sound"
+                            />
+                        <TextView
+                            android:layout_width="181dp"
+                            android:layout_height="33dp"
+                            android:text="Cuckoo"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"/>
+                    <LinearLayout
+                        android:layout_width="181dp"
+                        android:layout_height="286dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/CROW"
+                            android:layout_width="wrap_content"
+                            android:layout_height="257dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/crow"
+                            android:contentDescription="crow sound"/>
+
+                        <TextView
+                            android:layout_width="181dp"
+                            android:layout_height="33dp"
+                            android:text="Crow"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/cseekbar2"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"/>
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cseekbar3"
+                        android:layout_marginStart="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="286dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="181dp"
+                        android:layout_height="286dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/PARROT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="257dp"
+                            android:scaleType="fitXY"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg"
+                            android:src="@drawable/parrrot"
+                            android:contentDescription="parrot sound"/>
+
+                        <TextView
+                            android:layout_width="181dp"
+                            android:layout_height="33dp"
+                            android:text="Parrot"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"/>
+
+                    <LinearLayout
+                        android:layout_width="181dp"
+                        android:layout_height="286dp"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/DUCK"
+                            android:layout_width="wrap_content"
+                            android:layout_height="257dp"
+                            android:scaleType="fitXY"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg"
+                            android:src="@drawable/duckimg"
+                            android:contentDescription="Duck Sound"/>
+
+                        <TextView
+                            android:layout_width="181dp"
+                            android:layout_height="33dp"
+                            android:text="Duck"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pseekbar4"
+                        android:layout_gravity="center"/>
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/dseekbar5"
+                        android:layout_marginStart="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+
+
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
